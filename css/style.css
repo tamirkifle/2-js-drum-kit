@@ -29,16 +29,18 @@ p{
     width:10%;
     margin-left:1%;
     margin-top: 35%;
-    padding-top:14px;
-    height: 80px;
+    padding-top:10px;
+    height: 86px;
     text-align: center ;
     opacity: 70%;
     border:#888 5px solid;
     background: black;
-    color: white
+    color: white;
+    transition: transform 0.07s;
 }
 
 .key.press{
     border:goldenrod 5px solid;
-    color: lightcoral
+    color: lightcoral;
+   transform: scale(1.1);
 }
